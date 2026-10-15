@@ -1,0 +1,31 @@
+{% comment %}
+Footer for a lesson.
+{% endcomment %}
+<footer>
+  <hr/>
+  <div class="row">
+    <div class="col-md-6" align="left">
+      <h5>
+        Copyright &copy; 2016–{{ 'now' | date: "%Y" }}
+        {% if site.carpentry == "swc" %}
+        <a href="{{ site.swc_site }}">Software Carpentry</a>
+        {% elsif site.carpentry == "dc" %}
+        <a href="{{ site.dc_site }}">Data Carpentry</a>
+        {% elsif site.carpentry == "lc" %}
+        <a href="{{ site.lc_site }}">Library Carpentry</a>
+        {% elsif site.carpentry == "cp" %}
+        <a href="{{ site.carpentries_site }}">The Carpentries</a>
+        {% elsif site.carpentry == "incubator" %}
+        <a href="{{ site.incubator_lesson_site }}">The Carpentries Incubator</a>
+        {% elsif site.carpentry == "lab" %}
+        <a href="{{ relative_root_path }}{% link index.md %}">The Carpentries Lab</a>
+        {% endif %}
+      </h5>
+    </div>
+    <div class="col-md-6" align="right">
+      <h5>
+	    <a href="{{ repo_url }}" data-checker-ignore>Improve this page</a>
+      </h5>
+    </div>
+  </div>
+</footer>

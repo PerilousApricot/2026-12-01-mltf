@@ -6,13 +6,14 @@ slug: "mltf-gateway-tutorial"
 
 # Contact
 email: "mltf@accre.vanderbilt.edu"
-repository: "accre/mltf-tutorial"
+repository: "PerilousApricot/2026-12-01-mltf"
 
 # Self-paced tutorial settings
 carpentry: "custom"
 curriculum: "mltf-gateway"
 flavor: "python"
-pilot: false
+kind: "lesson"
+pilot: true
 pre_survey: ""
 post_survey: ""
 start_time: 0
@@ -45,4 +46,4 @@ highlighter: rouge
 theme: null
 
 # Deployment URL
-url: "https://accre.github.io/mltf-tutorial"
+url: "https://perilousapricot.github.io/2026-12-01-mltf"
