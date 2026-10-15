@@ -1,0 +1,6 @@
+{
+  "nodes": 1,
+  "cpus-per-task": 2,
+  "mem": "4096",
+  "time": 30
+}
